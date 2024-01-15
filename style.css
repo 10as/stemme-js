@@ -1,0 +1,77 @@
+/* box for graph */
+.display{
+    border: 1px solid black;
+    display: flex;
+    width: 60vw;
+    gap: 10vw;
+    justify-content: center;
+    align-items: top;
+}
+/* for graphs */
+.stor{
+    
+    height: 60vh;
+
+}
+/* for names */
+.liten{
+    height: 5vh;   
+    text-align: center;
+
+}
+
+
+/* possitioning of graphs and names */
+.navn{
+    width: 10vw;
+}
+
+.graf{
+    width: 10vw;
+    height:50%;
+    align-self: flex-end;    
+}
+
+
+/* length of line on graph */
+.long{
+    position: absolute;
+    display: flex;
+}
+
+.longest{
+    width:57vw;
+}
+
+.medium{
+    width:37vw;
+}
+
+.short{
+    width:17vw;
+}
+
+/* line apparence */
+.line{
+    height: 0;
+    border: solid black 1px;
+    width: 100%;
+}
+
+/* collor of graph */
+.bla{
+    background-color: blue;
+}
+
+.gronn{
+    background-color: green;
+}
+
+.rod{
+    background-color: red;
+}
+
+
+a{
+    color: blue;
+}

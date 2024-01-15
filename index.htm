@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>stemmeteller</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="hallo">Her kan du stemme</h1>
+<input type="radio" name="parti" id="Høyere" value="H">
+<label for="Høyere">Høyere</label><br>
+
+<input type="radio" name="parti" id="Mdg" value="M">
+<label for="Mdg">Mdg</label><br>
+
+<input type="radio" name="parti" id="Arbeiderpartiet" value="A">
+<label for="Arbeiderpartiet">Arbeiderpartiet</label><br>
+
+<br><br>
+
+<input type="submit" value="stem" id="stem" class="stem" onclick="tellStemmen()">
+<br><br>
+<a onclick="switchUser()">bytt bruker(ikke lov)</a>
+
+
+<script src="script.js"></script>
+</body>
+</html>
